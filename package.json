@@ -1,0 +1,17 @@
+{
+  "name": "heroicloot-rpc",
+  "version": "1.0.0",
+  "description": "Rpc server of HeroicLoot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kerit",
+  "license": "",
+  "dependencies": {
+    "@ethereumjs/tx": "^3.3.0",
+    "@grpc/grpc-js": "^1.3.7",
+    "dotenv": "^10.0.0",
+    "web3": "^1.5.2"
+  }
+}
