@@ -4,6 +4,7 @@
   "description": "Rpc server of HeroicLoot",
   "main": "index.js",
   "scripts": {
+    "run": "node index.js",
     "test": "node index.js"
   },
   "author": "Kerit",
