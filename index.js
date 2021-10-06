@@ -96,7 +96,7 @@ app.post('/mint/:toAddress', (req, res) => {
     });
 });
 
-app.listen(8080, (err) => {
+app.listen(process.env.PORT || 8080, (err) => {
   if (err) console.log('Server start error');
   console.log('Serve listening on port 8080');
 });
